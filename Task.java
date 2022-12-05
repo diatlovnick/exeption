@@ -19,7 +19,10 @@ public class Task {
         for (int i : res2) {
             System.out.println(i);
         }
-        
+        int res = Func.getdiv(12, 0);
+        System.out.println(res);
+        double a = Func.getsqr(99999999, 99999999);
+        System.out.println(a);
     }
     
 }

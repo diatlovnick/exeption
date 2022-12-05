@@ -26,5 +26,24 @@ public class Func {
         return result;
 
     }   
-    
+    static int getdiv(int number1, int number2){
+        int res = 0;
+        try {
+          res = number1 / number2;
+        } catch (Exception e) {
+            System.out.println("второе число является нулём");
+        }
+        return res;
+    }
+    static double getsqr(double number3, double number4){
+        double a = 0.0;
+        try {
+            a = Math.pow(number3, number4);
+        } catch (Exception e) {
+            // TODO: handle exception
+            System.out.println("слишком большое число");
+        }
+        
+        return a;
+    }
 }
