@@ -14,10 +14,17 @@ public class Func {
         }
         else result = new int[array2.length];
         
-        for (int i = 0; i < result.length; i++) {
-            result[i] = array1[i]-array2[i];
+        try {
+            for (int i = 0; i < result.length; i++) {
+                result[i] = array1[i]-array2[i];
+            }
+            //return result;
+            
+        } catch (Exception e) {
+            System.out.println("arrays don't same length");
         }
         return result;
-    }
+
+    }   
     
 }

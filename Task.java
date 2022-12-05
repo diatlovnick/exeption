@@ -11,9 +11,9 @@ public class Task {
 
     public static void main(String[] args) {
         System.out.println("hello");
-        int [] mass = {1,22,3,4};
-        int[] mass2 = {1,2,3,4};
-        
+        int [] mass = {10,20,30,40,50};
+        int[] mass2 = {1,2,3,4,5,6,7};
+
         int[] res2 = Func.getArray(mass, mass2) ; 
 
         for (int i : res2) {
